@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bfdaa5b7416145e7b2f7a7c537fe22ca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bfdaa5b7416145e7b2f7a7c537fe22ca" ></div>
+        
+</body>
+<script>    
+    
+            var map_bfdaa5b7416145e7b2f7a7c537fe22ca = L.map(
+                "map_bfdaa5b7416145e7b2f7a7c537fe22ca",
+                {
+                    center: [43.6534817, -79.3839347],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9616abc1006e4c8988d40fefa47b367c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+            var tile_layer_579c7405ca1b47feb7cfb22f5435aee8 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+            var circle_marker_34df6af485114b9781dac3b9927c1acd = L.circleMarker(
+                [43.7532586, -79.3296565],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_52a418bce18f4ac19cb5099f8037e383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0cc2d65ac4d478b9cdd738ddf6064a9 = $(`<div id="html_a0cc2d65ac4d478b9cdd738ddf6064a9" style="width: 100.0%; height: 100.0%;">Parkwoods Coffee lack: 0.0</div>`)[0];
+            popup_52a418bce18f4ac19cb5099f8037e383.setContent(html_a0cc2d65ac4d478b9cdd738ddf6064a9);
+        
+
+        circle_marker_34df6af485114b9781dac3b9927c1acd.bindPopup(popup_52a418bce18f4ac19cb5099f8037e383)
+        ;
+
+        
+    
+    
+            var circle_marker_93b264f02e224cf9b90e5c458d8256e8 = L.circleMarker(
+                [43.725882299999995, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_2c6a3fcea1cd442abb4a0f407c08c668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f191af2069074bd48313a20d1c509003 = $(`<div id="html_f191af2069074bd48313a20d1c509003" style="width: 100.0%; height: 100.0%;">Victoria Village Coffee lack: 0.0</div>`)[0];
+            popup_2c6a3fcea1cd442abb4a0f407c08c668.setContent(html_f191af2069074bd48313a20d1c509003);
+        
+
+        circle_marker_93b264f02e224cf9b90e5c458d8256e8.bindPopup(popup_2c6a3fcea1cd442abb4a0f407c08c668)
+        ;
+
+        
+    
+    
+            var circle_marker_8e32f27749be47f69a1f681f8dea4714 = L.circleMarker(
+                [43.6542599, -79.3606359],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_d209b9fefe4a4ce381daea8e8c44fa38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30718e79851e425d8298d33fc750b4ec = $(`<div id="html_30718e79851e425d8298d33fc750b4ec" style="width: 100.0%; height: 100.0%;">Regent Park, Harbourfront Coffee lack: 0.0</div>`)[0];
+            popup_d209b9fefe4a4ce381daea8e8c44fa38.setContent(html_30718e79851e425d8298d33fc750b4ec);
+        
+
+        circle_marker_8e32f27749be47f69a1f681f8dea4714.bindPopup(popup_d209b9fefe4a4ce381daea8e8c44fa38)
+        ;
+
+        
+    
+    
+            var circle_marker_7031a36012b046e8bc38dd607e2ab0dd = L.circleMarker(
+                [43.718517999999996, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_c9888b67953e4256a4847c40166a93e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a4c94ee427e421b83836bdbf3e1ea29 = $(`<div id="html_8a4c94ee427e421b83836bdbf3e1ea29" style="width: 100.0%; height: 100.0%;">Lawrence Manor, Lawrence Heights Coffee lack: 0.0</div>`)[0];
+            popup_c9888b67953e4256a4847c40166a93e6.setContent(html_8a4c94ee427e421b83836bdbf3e1ea29);
+        
+
+        circle_marker_7031a36012b046e8bc38dd607e2ab0dd.bindPopup(popup_c9888b67953e4256a4847c40166a93e6)
+        ;
+
+        
+    
+    
+            var circle_marker_7bdbd10d6abd4a788c388037bf2ad8d3 = L.circleMarker(
+                [43.6623015, -79.3894938],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_d5b9a7b05115459f835d14536abb41fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d82a0893ec5e4f55ad6166962225735d = $(`<div id="html_d82a0893ec5e4f55ad6166962225735d" style="width: 100.0%; height: 100.0%;">Queen&#39;s Park, Ontario Provincial Government Coffee lack: 0.0</div>`)[0];
+            popup_d5b9a7b05115459f835d14536abb41fe.setContent(html_d82a0893ec5e4f55ad6166962225735d);
+        
+
+        circle_marker_7bdbd10d6abd4a788c388037bf2ad8d3.bindPopup(popup_d5b9a7b05115459f835d14536abb41fe)
+        ;
+
+        
+    
+    
+            var circle_marker_cbf5248abca145148cc8bf85946bf97e = L.circleMarker(
+                [43.6678556, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_850b18ecc1d246f793313d3ac9a29b94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d3f394c02e94f1e923ac5de381233d4 = $(`<div id="html_8d3f394c02e94f1e923ac5de381233d4" style="width: 100.0%; height: 100.0%;">Islington Avenue, Humber Valley Village Coffee lack: 0.0</div>`)[0];
+            popup_850b18ecc1d246f793313d3ac9a29b94.setContent(html_8d3f394c02e94f1e923ac5de381233d4);
+        
+
+        circle_marker_cbf5248abca145148cc8bf85946bf97e.bindPopup(popup_850b18ecc1d246f793313d3ac9a29b94)
+        ;
+
+        
+    
+    
+            var circle_marker_a84bad766f144378a6c9117b27d4d103 = L.circleMarker(
+                [43.806686299999996, -79.19435340000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ac3c04dff2dc47c18e4cc9aca0ceecb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd3327ffe3c9446d9a07f281c4126125 = $(`<div id="html_cd3327ffe3c9446d9a07f281c4126125" style="width: 100.0%; height: 100.0%;">Malvern, Rouge Coffee lack: 0.0</div>`)[0];
+            popup_ac3c04dff2dc47c18e4cc9aca0ceecb2.setContent(html_cd3327ffe3c9446d9a07f281c4126125);
+        
+
+        circle_marker_a84bad766f144378a6c9117b27d4d103.bindPopup(popup_ac3c04dff2dc47c18e4cc9aca0ceecb2)
+        ;
+
+        
+    
+    
+            var circle_marker_2304835ea10747c0a3d80cd6258af88b = L.circleMarker(
+                [43.745905799999996, -79.352188],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_04e82deb8630419bae5e229ad03f0720 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03217dec149f43bcb2670261bdc47722 = $(`<div id="html_03217dec149f43bcb2670261bdc47722" style="width: 100.0%; height: 100.0%;">Don Mills Coffee lack: 0.0</div>`)[0];
+            popup_04e82deb8630419bae5e229ad03f0720.setContent(html_03217dec149f43bcb2670261bdc47722);
+        
+
+        circle_marker_2304835ea10747c0a3d80cd6258af88b.bindPopup(popup_04e82deb8630419bae5e229ad03f0720)
+        ;
+
+        
+    
+    
+            var circle_marker_f4dbdbabad91493f9b31d5507cb919c5 = L.circleMarker(
+                [43.7063972, -79.309937],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.112669661906418, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_11786e35d2e243aa8b5ae832d680bdea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1325429fa5f34c9ba910b2524f99673e = $(`<div id="html_1325429fa5f34c9ba910b2524f99673e" style="width: 100.0%; height: 100.0%;">Parkview Hill, Woodbine Gardens Coffee lack: 0.7</div>`)[0];
+            popup_11786e35d2e243aa8b5ae832d680bdea.setContent(html_1325429fa5f34c9ba910b2524f99673e);
+        
+
+        circle_marker_f4dbdbabad91493f9b31d5507cb919c5.bindPopup(popup_11786e35d2e243aa8b5ae832d680bdea)
+        ;
+
+        
+    
+    
+            var circle_marker_f21428aae99f456caf3a90fe1024ceb6 = L.circleMarker(
+                [43.6571618, -79.37893709999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_bc5266f8b0b74910bd4ab65c62f5b56e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10eab168ce9a4bf0bd5652e1c18f551e = $(`<div id="html_10eab168ce9a4bf0bd5652e1c18f551e" style="width: 100.0%; height: 100.0%;">Garden District, Ryerson Coffee lack: 0.0</div>`)[0];
+            popup_bc5266f8b0b74910bd4ab65c62f5b56e.setContent(html_10eab168ce9a4bf0bd5652e1c18f551e);
+        
+
+        circle_marker_f21428aae99f456caf3a90fe1024ceb6.bindPopup(popup_bc5266f8b0b74910bd4ab65c62f5b56e)
+        ;
+
+        
+    
+    
+            var circle_marker_88cc73a79d8045a3afa185be699fc4f6 = L.circleMarker(
+                [43.709577, -79.44507259999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.460978709781973, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_7a0de3b847294f23a7f2a41a2388718a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa0ffcbd76514bc69d7336dd78ffc58f = $(`<div id="html_fa0ffcbd76514bc69d7336dd78ffc58f" style="width: 100.0%; height: 100.0%;">Glencairn Coffee lack: 0.4</div>`)[0];
+            popup_7a0de3b847294f23a7f2a41a2388718a.setContent(html_fa0ffcbd76514bc69d7336dd78ffc58f);
+        
+
+        circle_marker_88cc73a79d8045a3afa185be699fc4f6.bindPopup(popup_7a0de3b847294f23a7f2a41a2388718a)
+        ;
+
+        
+    
+    
+            var circle_marker_ebdfa0b6ea35483f8ad060c4c5004fe1 = L.circleMarker(
+                [43.6509432, -79.55472440000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_5e511e0288414ffea21a6af84cfebe64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd285a07a48a46c9bf57ca1b33d24d8e = $(`<div id="html_dd285a07a48a46c9bf57ca1b33d24d8e" style="width: 100.0%; height: 100.0%;">West Deane Park, Princess Gardens, Martin Grove, Islington, Cloverdale Coffee lack: 0.0</div>`)[0];
+            popup_5e511e0288414ffea21a6af84cfebe64.setContent(html_dd285a07a48a46c9bf57ca1b33d24d8e);
+        
+
+        circle_marker_ebdfa0b6ea35483f8ad060c4c5004fe1.bindPopup(popup_5e511e0288414ffea21a6af84cfebe64)
+        ;
+
+        
+    
+    
+            var circle_marker_5dd1fbb8ca024f0facf68d9121e70aee = L.circleMarker(
+                [43.7845351, -79.16049709999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_de39dab2656f487f881a932dc2c7c191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9b73b57ee0a4668a62aa285e567ddb9 = $(`<div id="html_f9b73b57ee0a4668a62aa285e567ddb9" style="width: 100.0%; height: 100.0%;">Rouge Hill, Port Union, Highland Creek Coffee lack: 0.0</div>`)[0];
+            popup_de39dab2656f487f881a932dc2c7c191.setContent(html_f9b73b57ee0a4668a62aa285e567ddb9);
+        
+
+        circle_marker_5dd1fbb8ca024f0facf68d9121e70aee.bindPopup(popup_de39dab2656f487f881a932dc2c7c191)
+        ;
+
+        
+    
+    
+            var circle_marker_86f85b95c3594025991df803951c60d6 = L.circleMarker(
+                [43.72589970000001, -79.340923],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.362687489954489, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_c79830d942dd401e80fc8a6270246986 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8270de05f1d4c05978099930f22c0b4 = $(`<div id="html_c8270de05f1d4c05978099930f22c0b4" style="width: 100.0%; height: 100.0%;">Don Mills Coffee lack: 0.9</div>`)[0];
+            popup_c79830d942dd401e80fc8a6270246986.setContent(html_c8270de05f1d4c05978099930f22c0b4);
+        
+
+        circle_marker_86f85b95c3594025991df803951c60d6.bindPopup(popup_c79830d942dd401e80fc8a6270246986)
+        ;
+
+        
+    
+    
+            var circle_marker_979a4246dfc14153b3d395f04d1196aa = L.circleMarker(
+                [43.695343900000005, -79.3183887],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.360855666115727, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ff220ee637264f00bc093008ea2342f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8f7e9f0645e4658808ac8710af522a8 = $(`<div id="html_c8f7e9f0645e4658808ac8710af522a8" style="width: 100.0%; height: 100.0%;">Woodbine Heights Coffee lack: 0.4</div>`)[0];
+            popup_ff220ee637264f00bc093008ea2342f4.setContent(html_c8f7e9f0645e4658808ac8710af522a8);
+        
+
+        circle_marker_979a4246dfc14153b3d395f04d1196aa.bindPopup(popup_ff220ee637264f00bc093008ea2342f4)
+        ;
+
+        
+    
+    
+            var circle_marker_3ee7cea1f2ff4469aaaa6cbc45853232 = L.circleMarker(
+                [43.6514939, -79.3754179],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.95628716689108, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ec7da51c70d94a7eb940fc62c7bd5270 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f22d2e09efa046b9a5cb6e8337d2e783 = $(`<div id="html_f22d2e09efa046b9a5cb6e8337d2e783" style="width: 100.0%; height: 100.0%;">St. James Town Coffee lack: 1.4</div>`)[0];
+            popup_ec7da51c70d94a7eb940fc62c7bd5270.setContent(html_f22d2e09efa046b9a5cb6e8337d2e783);
+        
+
+        circle_marker_3ee7cea1f2ff4469aaaa6cbc45853232.bindPopup(popup_ec7da51c70d94a7eb940fc62c7bd5270)
+        ;
+
+        
+    
+    
+            var circle_marker_01293fa73b964fd48f8d69c3d7d3de78 = L.circleMarker(
+                [43.6937813, -79.42819140000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.304928123462017, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_79915a4df2254e2bb65082e507c5d03d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07e3acd8a0d84e42a18e7283146bfe7a = $(`<div id="html_07e3acd8a0d84e42a18e7283146bfe7a" style="width: 100.0%; height: 100.0%;">Humewood-Cedarvale Coffee lack: 0.3</div>`)[0];
+            popup_79915a4df2254e2bb65082e507c5d03d.setContent(html_07e3acd8a0d84e42a18e7283146bfe7a);
+        
+
+        circle_marker_01293fa73b964fd48f8d69c3d7d3de78.bindPopup(popup_79915a4df2254e2bb65082e507c5d03d)
+        ;
+
+        
+    
+    
+            var circle_marker_1910ffd4eaef45b5a01375ff0b0932f1 = L.circleMarker(
+                [43.6435152, -79.57720079999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_4acfbe9741394b5c81e765f455e43aa1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c85f69dfbb2f47a79ae64dd62440fca0 = $(`<div id="html_c85f69dfbb2f47a79ae64dd62440fca0" style="width: 100.0%; height: 100.0%;">Eringate, Bloordale Gardens, Old Burnhamthorpe, Markland Wood Coffee lack: 0.0</div>`)[0];
+            popup_4acfbe9741394b5c81e765f455e43aa1.setContent(html_c85f69dfbb2f47a79ae64dd62440fca0);
+        
+
+        circle_marker_1910ffd4eaef45b5a01375ff0b0932f1.bindPopup(popup_4acfbe9741394b5c81e765f455e43aa1)
+        ;
+
+        
+    
+    
+            var circle_marker_62f907c06dde4c6da6f2aa32ca2eac66 = L.circleMarker(
+                [43.7635726, -79.1887115],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.804540738184873, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_acc0d95e871c4bff8dfbdc84e79d2e5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7da9203ad23a421aa090d1e8660f8746 = $(`<div id="html_7da9203ad23a421aa090d1e8660f8746" style="width: 100.0%; height: 100.0%;">Guildwood, Morningside, West Hill Coffee lack: 0.5</div>`)[0];
+            popup_acc0d95e871c4bff8dfbdc84e79d2e5b.setContent(html_7da9203ad23a421aa090d1e8660f8746);
+        
+
+        circle_marker_62f907c06dde4c6da6f2aa32ca2eac66.bindPopup(popup_acc0d95e871c4bff8dfbdc84e79d2e5b)
+        ;
+
+        
+    
+    
+            var circle_marker_d6986de36aba4f53a4bc86c3454c86bb = L.circleMarker(
+                [43.67635739999999, -79.2930312],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.46870782229053, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_e82aaaa305534e3f8c1cf0a6c52f0c39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_083f4d4670404f6e8a7d90b1208004e2 = $(`<div id="html_083f4d4670404f6e8a7d90b1208004e2" style="width: 100.0%; height: 100.0%;">The Beaches Coffee lack: 0.4</div>`)[0];
+            popup_e82aaaa305534e3f8c1cf0a6c52f0c39.setContent(html_083f4d4670404f6e8a7d90b1208004e2);
+        
+
+        circle_marker_d6986de36aba4f53a4bc86c3454c86bb.bindPopup(popup_e82aaaa305534e3f8c1cf0a6c52f0c39)
+        ;
+
+        
+    
+    
+            var circle_marker_a74d64ed031349e0ae9db3a26c4d8272 = L.circleMarker(
+                [43.644770799999996, -79.3733064],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.8185675710858, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_3f315b1176df47d98a4f217f65bfee23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0518de53dd084db0a2cbb9513733b9e0 = $(`<div id="html_0518de53dd084db0a2cbb9513733b9e0" style="width: 100.0%; height: 100.0%;">Berczy Park Coffee lack: 1.7</div>`)[0];
+            popup_3f315b1176df47d98a4f217f65bfee23.setContent(html_0518de53dd084db0a2cbb9513733b9e0);
+        
+
+        circle_marker_a74d64ed031349e0ae9db3a26c4d8272.bindPopup(popup_3f315b1176df47d98a4f217f65bfee23)
+        ;
+
+        
+    
+    
+            var circle_marker_fe322ce9050a4140a2797e5f6928ef70 = L.circleMarker(
+                [43.6890256, -79.453512],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.742226394121644, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_0ac2a71afa824f579e5f6dcf3501ed77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c945a0920150456c893bab891e704b06 = $(`<div id="html_c945a0920150456c893bab891e704b06" style="width: 100.0%; height: 100.0%;">Caledonia-Fairbanks Coffee lack: 0.1</div>`)[0];
+            popup_0ac2a71afa824f579e5f6dcf3501ed77.setContent(html_c945a0920150456c893bab891e704b06);
+        
+
+        circle_marker_fe322ce9050a4140a2797e5f6928ef70.bindPopup(popup_0ac2a71afa824f579e5f6dcf3501ed77)
+        ;
+
+        
+    
+    
+            var circle_marker_79d976ff30464a0781af5b2148237437 = L.circleMarker(
+                [43.7709921, -79.21691740000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_15a7cdd29a4240d1a7128ebbdc7969a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62281df69a7d4d74a061ffd6a37fc55b = $(`<div id="html_62281df69a7d4d74a061ffd6a37fc55b" style="width: 100.0%; height: 100.0%;">Woburn Coffee lack: 0.0</div>`)[0];
+            popup_15a7cdd29a4240d1a7128ebbdc7969a6.setContent(html_62281df69a7d4d74a061ffd6a37fc55b);
+        
+
+        circle_marker_79d976ff30464a0781af5b2148237437.bindPopup(popup_15a7cdd29a4240d1a7128ebbdc7969a6)
+        ;
+
+        
+    
+    
+            var circle_marker_85405c3f120144499dc2b815bd483bcf = L.circleMarker(
+                [43.7090604, -79.3634517],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.478835740421022, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ab582efea4aa4d2f94301e14e1058a14 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_320f46692c824ccf9c307120b319520a = $(`<div id="html_320f46692c824ccf9c307120b319520a" style="width: 100.0%; height: 100.0%;">Leaside Coffee lack: 1.8</div>`)[0];
+            popup_ab582efea4aa4d2f94301e14e1058a14.setContent(html_320f46692c824ccf9c307120b319520a);
+        
+
+        circle_marker_85405c3f120144499dc2b815bd483bcf.bindPopup(popup_ab582efea4aa4d2f94301e14e1058a14)
+        ;
+
+        
+    
+    
+            var circle_marker_863252bc85a240d68615415aeeec0328 = L.circleMarker(
+                [43.6579524, -79.3873826],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_b8edcc6751ec4b91b12fe79469301e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cafbe6bbcf134e369c8213210b3a331b = $(`<div id="html_cafbe6bbcf134e369c8213210b3a331b" style="width: 100.0%; height: 100.0%;">Central Bay Street Coffee lack: 0.0</div>`)[0];
+            popup_b8edcc6751ec4b91b12fe79469301e84.setContent(html_cafbe6bbcf134e369c8213210b3a331b);
+        
+
+        circle_marker_863252bc85a240d68615415aeeec0328.bindPopup(popup_b8edcc6751ec4b91b12fe79469301e84)
+        ;
+
+        
+    
+    
+            var circle_marker_4b388c7dd4fe47a5803439610adb8275 = L.circleMarker(
+                [43.669542, -79.4225637],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_0a544abc52c9497a89341644fee422a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9083452a01f647b68b3a837582df3989 = $(`<div id="html_9083452a01f647b68b3a837582df3989" style="width: 100.0%; height: 100.0%;">Christie Coffee lack: 0.0</div>`)[0];
+            popup_0a544abc52c9497a89341644fee422a3.setContent(html_9083452a01f647b68b3a837582df3989);
+        
+
+        circle_marker_4b388c7dd4fe47a5803439610adb8275.bindPopup(popup_0a544abc52c9497a89341644fee422a3)
+        ;
+
+        
+    
+    
+            var circle_marker_3fbb769fb2ec48dcb272b4fed651976e = L.circleMarker(
+                [43.773136, -79.23947609999999],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.254755687000188, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_adaf159cc4ec45bcb28c1d2dffd8c35e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b9c0a333f8a4935ba56ca53feea0264 = $(`<div id="html_7b9c0a333f8a4935ba56ca53feea0264" style="width: 100.0%; height: 100.0%;">Cedarbrae Coffee lack: 0.8</div>`)[0];
+            popup_adaf159cc4ec45bcb28c1d2dffd8c35e.setContent(html_7b9c0a333f8a4935ba56ca53feea0264);
+        
+
+        circle_marker_3fbb769fb2ec48dcb272b4fed651976e.bindPopup(popup_adaf159cc4ec45bcb28c1d2dffd8c35e)
+        ;
+
+        
+    
+    
+            var circle_marker_34e2f714249d4edba83fab42cbf52b92 = L.circleMarker(
+                [43.8037622, -79.3634517],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.507818019769033, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_e4672b110736417e9321e34655b6012c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdd1f761eb274c9faf4820d971009e4a = $(`<div id="html_bdd1f761eb274c9faf4820d971009e4a" style="width: 100.0%; height: 100.0%;">Hillcrest Village Coffee lack: 0.2</div>`)[0];
+            popup_e4672b110736417e9321e34655b6012c.setContent(html_bdd1f761eb274c9faf4820d971009e4a);
+        
+
+        circle_marker_34e2f714249d4edba83fab42cbf52b92.bindPopup(popup_e4672b110736417e9321e34655b6012c)
+        ;
+
+        
+    
+    
+            var circle_marker_6d8aa4d1087d484683f9d3afb61ca11b = L.circleMarker(
+                [43.7543283, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.964044896876081, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_379ee6cb8a1a4d35852025b0e5a4076b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bde64286a9e24f449698fa7b6e0a1bb7 = $(`<div id="html_bde64286a9e24f449698fa7b6e0a1bb7" style="width: 100.0%; height: 100.0%;">Bathurst Manor, Wilson Heights, Downsview North Coffee lack: 0.3</div>`)[0];
+            popup_379ee6cb8a1a4d35852025b0e5a4076b.setContent(html_bde64286a9e24f449698fa7b6e0a1bb7);
+        
+
+        circle_marker_6d8aa4d1087d484683f9d3afb61ca11b.bindPopup(popup_379ee6cb8a1a4d35852025b0e5a4076b)
+        ;
+
+        
+    
+    
+            var circle_marker_c7460c24b30149e39b03c5418df76929 = L.circleMarker(
+                [43.7053689, -79.34937190000001],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.768656131818087, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_f92d9d6b387045c59857e638113dd540 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e64c19e0d7148bea1b33e9611378fce = $(`<div id="html_1e64c19e0d7148bea1b33e9611378fce" style="width: 100.0%; height: 100.0%;">Thorncliffe Park Coffee lack: 1.8</div>`)[0];
+            popup_f92d9d6b387045c59857e638113dd540.setContent(html_1e64c19e0d7148bea1b33e9611378fce);
+        
+
+        circle_marker_c7460c24b30149e39b03c5418df76929.bindPopup(popup_f92d9d6b387045c59857e638113dd540)
+        ;
+
+        
+    
+    
+            var circle_marker_d66ab7590a864bf0a2e9874c01118b6f = L.circleMarker(
+                [43.65057120000001, -79.3845675],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.681407028858224, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_009d3d1b4a1b4d6dbe970c9ac55b099f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0fb39c05dfc46b7bb3e24975aaea4b5 = $(`<div id="html_f0fb39c05dfc46b7bb3e24975aaea4b5" style="width: 100.0%; height: 100.0%;">Richmond, Adelaide, King Coffee lack: 0.1</div>`)[0];
+            popup_009d3d1b4a1b4d6dbe970c9ac55b099f.setContent(html_f0fb39c05dfc46b7bb3e24975aaea4b5);
+        
+
+        circle_marker_d66ab7590a864bf0a2e9874c01118b6f.bindPopup(popup_009d3d1b4a1b4d6dbe970c9ac55b099f)
+        ;
+
+        
+    
+    
+            var circle_marker_cea83cf14c32421a9aacd4869d713c8f = L.circleMarker(
+                [43.66900510000001, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_7de9e9c41eaa46daba8dbb40aa9fa7ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d86fa4371f11467e9d79826a19a7da3b = $(`<div id="html_d86fa4371f11467e9d79826a19a7da3b" style="width: 100.0%; height: 100.0%;">Dufferin, Dovercourt Village Coffee lack: 0.0</div>`)[0];
+            popup_7de9e9c41eaa46daba8dbb40aa9fa7ff.setContent(html_d86fa4371f11467e9d79826a19a7da3b);
+        
+
+        circle_marker_cea83cf14c32421a9aacd4869d713c8f.bindPopup(popup_7de9e9c41eaa46daba8dbb40aa9fa7ff)
+        ;
+
+        
+    
+    
+            var circle_marker_b068907c9e264f1fa1d8fa6dc7be8785 = L.circleMarker(
+                [43.7447342, -79.23947609999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_3c165783e3184aa88b03b70f3772fd7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793ced2643054dc9b454fa2faae1dbc2 = $(`<div id="html_793ced2643054dc9b454fa2faae1dbc2" style="width: 100.0%; height: 100.0%;">Scarborough Village Coffee lack: 0.0</div>`)[0];
+            popup_3c165783e3184aa88b03b70f3772fd7c.setContent(html_793ced2643054dc9b454fa2faae1dbc2);
+        
+
+        circle_marker_b068907c9e264f1fa1d8fa6dc7be8785.bindPopup(popup_3c165783e3184aa88b03b70f3772fd7c)
+        ;
+
+        
+    
+    
+            var circle_marker_88fe50a9d58c4b86894380763a9f7b95 = L.circleMarker(
+                [43.7785175, -79.3465557],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.048637540602211, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_43e725577c5344ac9e1548e97620b3c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf56e920863b4ac3a4a9b1ea7ce0a3e3 = $(`<div id="html_bf56e920863b4ac3a4a9b1ea7ce0a3e3" style="width: 100.0%; height: 100.0%;">Fairview, Henry Farm, Oriole Coffee lack: 0.8</div>`)[0];
+            popup_43e725577c5344ac9e1548e97620b3c6.setContent(html_bf56e920863b4ac3a4a9b1ea7ce0a3e3);
+        
+
+        circle_marker_88fe50a9d58c4b86894380763a9f7b95.bindPopup(popup_43e725577c5344ac9e1548e97620b3c6)
+        ;
+
+        
+    
+    
+            var circle_marker_8f1354ca0d6f4b819ccb409cf48abb40 = L.circleMarker(
+                [43.7679803, -79.48726190000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_8f538b768e4d4543ada46fcc86f00be3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21727af7901a4a368a5413b5fcf5356b = $(`<div id="html_21727af7901a4a368a5413b5fcf5356b" style="width: 100.0%; height: 100.0%;">Northwood Park, York University Coffee lack: 0.0</div>`)[0];
+            popup_8f538b768e4d4543ada46fcc86f00be3.setContent(html_21727af7901a4a368a5413b5fcf5356b);
+        
+
+        circle_marker_8f1354ca0d6f4b819ccb409cf48abb40.bindPopup(popup_8f538b768e4d4543ada46fcc86f00be3)
+        ;
+
+        
+    
+    
+            var circle_marker_ab29c89560014021aba6a7a79c528e47 = L.circleMarker(
+                [43.685347, -79.3381065],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.72657951877793, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a1c7b9b19dcc4df7a2b0a37e55514a9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b24b8b33ede0490092b8e9b4c2522086 = $(`<div id="html_b24b8b33ede0490092b8e9b4c2522086" style="width: 100.0%; height: 100.0%;">East Toronto, Broadview North (Old East York) Coffee lack: 0.1</div>`)[0];
+            popup_a1c7b9b19dcc4df7a2b0a37e55514a9f.setContent(html_b24b8b33ede0490092b8e9b4c2522086);
+        
+
+        circle_marker_ab29c89560014021aba6a7a79c528e47.bindPopup(popup_a1c7b9b19dcc4df7a2b0a37e55514a9f)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3bf1c8c82a4d83b5930a71c411aeea = L.circleMarker(
+                [43.6408157, -79.38175229999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_3105b74813464a03b59eb56bafbe7f62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65c11f6bb82643249faf91a01cc593ae = $(`<div id="html_65c11f6bb82643249faf91a01cc593ae" style="width: 100.0%; height: 100.0%;">Harbourfront East, Union Station, Toronto Islands Coffee lack: 0.0</div>`)[0];
+            popup_3105b74813464a03b59eb56bafbe7f62.setContent(html_65c11f6bb82643249faf91a01cc593ae);
+        
+
+        circle_marker_9f3bf1c8c82a4d83b5930a71c411aeea.bindPopup(popup_3105b74813464a03b59eb56bafbe7f62)
+        ;
+
+        
+    
+    
+            var circle_marker_e657e4dbb08344c5a571dee4638038dc = L.circleMarker(
+                [43.647926700000006, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.91696838337277, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_647a9c745a7743f29efa9528c7d18e25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0b73d87f71e4450a03c8aea2ece7560 = $(`<div id="html_f0b73d87f71e4450a03c8aea2ece7560" style="width: 100.0%; height: 100.0%;">Little Portugal, Trinity Coffee lack: 1.8</div>`)[0];
+            popup_647a9c745a7743f29efa9528c7d18e25.setContent(html_f0b73d87f71e4450a03c8aea2ece7560);
+        
+
+        circle_marker_e657e4dbb08344c5a571dee4638038dc.bindPopup(popup_647a9c745a7743f29efa9528c7d18e25)
+        ;
+
+        
+    
+    
+            var circle_marker_a61312030f2b4cbe8e486a6bf3e39547 = L.circleMarker(
+                [43.7279292, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ec9a6b1b27f2436db2950888831a9090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26c2a6f881a3428d999eb613191a0b93 = $(`<div id="html_26c2a6f881a3428d999eb613191a0b93" style="width: 100.0%; height: 100.0%;">Kennedy Park, Ionview, East Birchmount Park Coffee lack: 0.0</div>`)[0];
+            popup_ec9a6b1b27f2436db2950888831a9090.setContent(html_26c2a6f881a3428d999eb613191a0b93);
+        
+
+        circle_marker_a61312030f2b4cbe8e486a6bf3e39547.bindPopup(popup_ec9a6b1b27f2436db2950888831a9090)
+        ;
+
+        
+    
+    
+            var circle_marker_a4425e1fa5ce48288245c38728fd97e7 = L.circleMarker(
+                [43.7869473, -79.385975],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_071dbd49370f42cc9258c4d0ab368248 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_108b9698721348d39a97459408d195cc = $(`<div id="html_108b9698721348d39a97459408d195cc" style="width: 100.0%; height: 100.0%;">Bayview Village Coffee lack: 0.0</div>`)[0];
+            popup_071dbd49370f42cc9258c4d0ab368248.setContent(html_108b9698721348d39a97459408d195cc);
+        
+
+        circle_marker_a4425e1fa5ce48288245c38728fd97e7.bindPopup(popup_071dbd49370f42cc9258c4d0ab368248)
+        ;
+
+        
+    
+    
+            var circle_marker_6b1801d8891c4336bec9f5639cdec04e = L.circleMarker(
+                [43.737473200000004, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.974100031933861, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_72b6b28b8f494feda9bbca1cd4f175f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78b598059f4b4041b59c6cb4a4fc1e51 = $(`<div id="html_78b598059f4b4041b59c6cb4a4fc1e51" style="width: 100.0%; height: 100.0%;">Downsview Coffee lack: 0.3</div>`)[0];
+            popup_72b6b28b8f494feda9bbca1cd4f175f7.setContent(html_78b598059f4b4041b59c6cb4a4fc1e51);
+        
+
+        circle_marker_6b1801d8891c4336bec9f5639cdec04e.bindPopup(popup_72b6b28b8f494feda9bbca1cd4f175f7)
+        ;
+
+        
+    
+    
+            var circle_marker_e03515f9314842bc94758093b00cfa50 = L.circleMarker(
+                [43.6795571, -79.352188],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.24766606192685, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_dc6fa389390a40728cfb353047edfd91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17a14c2739af430a944f420485e11763 = $(`<div id="html_17a14c2739af430a944f420485e11763" style="width: 100.0%; height: 100.0%;">The Danforth West, Riverdale Coffee lack: 1.5</div>`)[0];
+            popup_dc6fa389390a40728cfb353047edfd91.setContent(html_17a14c2739af430a944f420485e11763);
+        
+
+        circle_marker_e03515f9314842bc94758093b00cfa50.bindPopup(popup_dc6fa389390a40728cfb353047edfd91)
+        ;
+
+        
+    
+    
+            var circle_marker_b179e18f45f34f5684cc727a66623223 = L.circleMarker(
+                [43.6471768, -79.38157640000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_0fd5ac5cbc1047b9abb7da45512b481e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d8e3b43ba8f407a853364371503c68c = $(`<div id="html_2d8e3b43ba8f407a853364371503c68c" style="width: 100.0%; height: 100.0%;">Toronto Dominion Centre, Design Exchange Coffee lack: 0.0</div>`)[0];
+            popup_0fd5ac5cbc1047b9abb7da45512b481e.setContent(html_2d8e3b43ba8f407a853364371503c68c);
+        
+
+        circle_marker_b179e18f45f34f5684cc727a66623223.bindPopup(popup_0fd5ac5cbc1047b9abb7da45512b481e)
+        ;
+
+        
+    
+    
+            var circle_marker_aad7ba21fc8741b181f685f956117614 = L.circleMarker(
+                [43.6368472, -79.42819140000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_0c4b6a027ddb4e1c9fcf142dc6623595 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da25ea9a77c84249a9edc379e3759e5d = $(`<div id="html_da25ea9a77c84249a9edc379e3759e5d" style="width: 100.0%; height: 100.0%;">Brockton, Parkdale Village, Exhibition Place Coffee lack: 0.0</div>`)[0];
+            popup_0c4b6a027ddb4e1c9fcf142dc6623595.setContent(html_da25ea9a77c84249a9edc379e3759e5d);
+        
+
+        circle_marker_aad7ba21fc8741b181f685f956117614.bindPopup(popup_0c4b6a027ddb4e1c9fcf142dc6623595)
+        ;
+
+        
+    
+    
+            var circle_marker_753e62b1f9904814aec9d743dad7a5a1 = L.circleMarker(
+                [43.711111700000004, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.125014291744186, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_56bd44fe025f4cd4a61a9c1b2568d809 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2c963f0ea444bfd87d13b1b142a5532 = $(`<div id="html_b2c963f0ea444bfd87d13b1b142a5532" style="width: 100.0%; height: 100.0%;">Golden Mile, Clairlea, Oakridge Coffee lack: 1.0</div>`)[0];
+            popup_56bd44fe025f4cd4a61a9c1b2568d809.setContent(html_b2c963f0ea444bfd87d13b1b142a5532);
+        
+
+        circle_marker_753e62b1f9904814aec9d743dad7a5a1.bindPopup(popup_56bd44fe025f4cd4a61a9c1b2568d809)
+        ;
+
+        
+    
+    
+            var circle_marker_479f9b162b664cababa404594f10b64d = L.circleMarker(
+                [43.7574902, -79.37471409999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ba4a789cf20943d8a97e2268060a4ec4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c48e3eeef7fa4d19a6a7531e43b5d99d = $(`<div id="html_c48e3eeef7fa4d19a6a7531e43b5d99d" style="width: 100.0%; height: 100.0%;">York Mills, Silver Hills Coffee lack: 0.0</div>`)[0];
+            popup_ba4a789cf20943d8a97e2268060a4ec4.setContent(html_c48e3eeef7fa4d19a6a7531e43b5d99d);
+        
+
+        circle_marker_479f9b162b664cababa404594f10b64d.bindPopup(popup_ba4a789cf20943d8a97e2268060a4ec4)
+        ;
+
+        
+    
+    
+            var circle_marker_31ee0234eed94e11b275e9010d9b3a06 = L.circleMarker(
+                [43.7390146, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.96830942397175, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_da94f1e3dc764a2d868541f9eb0dc699 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee0ae8a5b16a4296869a61cd8f9380c5 = $(`<div id="html_ee0ae8a5b16a4296869a61cd8f9380c5" style="width: 100.0%; height: 100.0%;">Downsview Coffee lack: 0.6</div>`)[0];
+            popup_da94f1e3dc764a2d868541f9eb0dc699.setContent(html_ee0ae8a5b16a4296869a61cd8f9380c5);
+        
+
+        circle_marker_31ee0234eed94e11b275e9010d9b3a06.bindPopup(popup_da94f1e3dc764a2d868541f9eb0dc699)
+        ;
+
+        
+    
+    
+            var circle_marker_bf1d5ab4008d48d99c8f9ff49d631337 = L.circleMarker(
+                [43.6689985, -79.31557159999998],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 27.897235922869292, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_9c7bdbf5cf2742848498ec66b3280737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96906a7377b4406893776e7207c90fb1 = $(`<div id="html_96906a7377b4406893776e7207c90fb1" style="width: 100.0%; height: 100.0%;">India Bazaar, The Beaches West Coffee lack: 2.0</div>`)[0];
+            popup_9c7bdbf5cf2742848498ec66b3280737.setContent(html_96906a7377b4406893776e7207c90fb1);
+        
+
+        circle_marker_bf1d5ab4008d48d99c8f9ff49d631337.bindPopup(popup_9c7bdbf5cf2742848498ec66b3280737)
+        ;
+
+        
+    
+    
+            var circle_marker_69b43a8fc58441c3855c8f832ad57223 = L.circleMarker(
+                [43.6481985, -79.37981690000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_062ef5f9da2f432fb3cdddb860978d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a2006c6d68e4158940308a657148ea3 = $(`<div id="html_2a2006c6d68e4158940308a657148ea3" style="width: 100.0%; height: 100.0%;">Commerce Court, Victoria Hotel Coffee lack: 0.0</div>`)[0];
+            popup_062ef5f9da2f432fb3cdddb860978d96.setContent(html_2a2006c6d68e4158940308a657148ea3);
+        
+
+        circle_marker_69b43a8fc58441c3855c8f832ad57223.bindPopup(popup_062ef5f9da2f432fb3cdddb860978d96)
+        ;
+
+        
+    
+    
+            var circle_marker_54a9142ce7974a8c9fdc5a0ff016c4b1 = L.circleMarker(
+                [43.713756200000006, -79.4900738],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.554940869507868, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_b0287d1727b74378ad4e094034484fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44aea8ae0e9640df8898c05664c598a9 = $(`<div id="html_44aea8ae0e9640df8898c05664c598a9" style="width: 100.0%; height: 100.0%;">North Park, Maple Leaf Park, Upwood Park Coffee lack: 0.2</div>`)[0];
+            popup_b0287d1727b74378ad4e094034484fd4.setContent(html_44aea8ae0e9640df8898c05664c598a9);
+        
+
+        circle_marker_54a9142ce7974a8c9fdc5a0ff016c4b1.bindPopup(popup_b0287d1727b74378ad4e094034484fd4)
+        ;
+
+        
+    
+    
+            var circle_marker_fbd2b00a0e084873a61528304d3c7160 = L.circleMarker(
+                [43.7563033, -79.56596329999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_b275caba780346988cabe6b0c1648a90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d941ff8b3c104340b3aeeb72186824ff = $(`<div id="html_d941ff8b3c104340b3aeeb72186824ff" style="width: 100.0%; height: 100.0%;">Humber Summit Coffee lack: 0.0</div>`)[0];
+            popup_b275caba780346988cabe6b0c1648a90.setContent(html_d941ff8b3c104340b3aeeb72186824ff);
+        
+
+        circle_marker_fbd2b00a0e084873a61528304d3c7160.bindPopup(popup_b275caba780346988cabe6b0c1648a90)
+        ;
+
+        
+    
+    
+            var circle_marker_86e82df06c014cd8b2bb66dc80927f00 = L.circleMarker(
+                [43.716316, -79.23947609999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_8097be313e8c4455883959996447abf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b868313824a1400d8feefe84ffdabd64 = $(`<div id="html_b868313824a1400d8feefe84ffdabd64" style="width: 100.0%; height: 100.0%;">Cliffside, Cliffcrest, Scarborough Village West Coffee lack: 0.0</div>`)[0];
+            popup_8097be313e8c4455883959996447abf7.setContent(html_b868313824a1400d8feefe84ffdabd64);
+        
+
+        circle_marker_86e82df06c014cd8b2bb66dc80927f00.bindPopup(popup_8097be313e8c4455883959996447abf7)
+        ;
+
+        
+    
+    
+            var circle_marker_fe7022972a754d48bdee19f6ff2a72f5 = L.circleMarker(
+                [43.789053, -79.40849279999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ac0c3f4713bb47b6a8f5e5ccdaa5ef62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e0189e1a2554abfa17e3f421e1e4f95 = $(`<div id="html_0e0189e1a2554abfa17e3f421e1e4f95" style="width: 100.0%; height: 100.0%;">Willowdale, Newtonbrook Coffee lack: 0.0</div>`)[0];
+            popup_ac0c3f4713bb47b6a8f5e5ccdaa5ef62.setContent(html_0e0189e1a2554abfa17e3f421e1e4f95);
+        
+
+        circle_marker_fe7022972a754d48bdee19f6ff2a72f5.bindPopup(popup_ac0c3f4713bb47b6a8f5e5ccdaa5ef62)
+        ;
+
+        
+    
+    
+            var circle_marker_ed5792d910fb420a83c911ee18d84225 = L.circleMarker(
+                [43.7284964, -79.49569740000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.181034229900568, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_9d5b2eb146e14f7c9479b37040030aec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_016f07413f6448f2aa5d2faa9437bdb4 = $(`<div id="html_016f07413f6448f2aa5d2faa9437bdb4" style="width: 100.0%; height: 100.0%;">Downsview Coffee lack: 0.3</div>`)[0];
+            popup_9d5b2eb146e14f7c9479b37040030aec.setContent(html_016f07413f6448f2aa5d2faa9437bdb4);
+        
+
+        circle_marker_ed5792d910fb420a83c911ee18d84225.bindPopup(popup_9d5b2eb146e14f7c9479b37040030aec)
+        ;
+
+        
+    
+    
+            var circle_marker_c5e56fe665e0453cb6b2aa18faf81a67 = L.circleMarker(
+                [43.6595255, -79.340923],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_d02b946182cf4065ae4dc07f16702d59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b61adaa0e024d8a9f332bb75d8e38f9 = $(`<div id="html_0b61adaa0e024d8a9f332bb75d8e38f9" style="width: 100.0%; height: 100.0%;">Studio District Coffee lack: 0.0</div>`)[0];
+            popup_d02b946182cf4065ae4dc07f16702d59.setContent(html_0b61adaa0e024d8a9f332bb75d8e38f9);
+        
+
+        circle_marker_c5e56fe665e0453cb6b2aa18faf81a67.bindPopup(popup_d02b946182cf4065ae4dc07f16702d59)
+        ;
+
+        
+    
+    
+            var circle_marker_fb0dc0d25eac4d66a7215cd597e862a0 = L.circleMarker(
+                [43.7332825, -79.4197497],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.923182830876802, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_5fad8eee4dcd4f268c8b66387d6b2411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5be95277514ca5a65945cf8e8043ae = $(`<div id="html_df5be95277514ca5a65945cf8e8043ae" style="width: 100.0%; height: 100.0%;">Bedford Park, Lawrence Manor East Coffee lack: 0.1</div>`)[0];
+            popup_5fad8eee4dcd4f268c8b66387d6b2411.setContent(html_df5be95277514ca5a65945cf8e8043ae);
+        
+
+        circle_marker_fb0dc0d25eac4d66a7215cd597e862a0.bindPopup(popup_5fad8eee4dcd4f268c8b66387d6b2411)
+        ;
+
+        
+    
+    
+            var circle_marker_14496d9f90e340b7abe5b3f5f67a1ea6 = L.circleMarker(
+                [43.6911158, -79.47601329999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.426130120427349, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_9dc5cc47cf0b4eaebbcb026c96fe35d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16dc345d78e44ebdb1ad3b73d35f85e4 = $(`<div id="html_16dc345d78e44ebdb1ad3b73d35f85e4" style="width: 100.0%; height: 100.0%;">Del Ray, Mount Dennis, Keelsdale and Silverthorn Coffee lack: 0.0</div>`)[0];
+            popup_9dc5cc47cf0b4eaebbcb026c96fe35d9.setContent(html_16dc345d78e44ebdb1ad3b73d35f85e4);
+        
+
+        circle_marker_14496d9f90e340b7abe5b3f5f67a1ea6.bindPopup(popup_9dc5cc47cf0b4eaebbcb026c96fe35d9)
+        ;
+
+        
+    
+    
+            var circle_marker_2c83a82b286e42bda97927aa34e91765 = L.circleMarker(
+                [43.7247659, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_067016d60c0a42bf805955d4b1536c46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2472028e6284d3380631d174440617a = $(`<div id="html_f2472028e6284d3380631d174440617a" style="width: 100.0%; height: 100.0%;">Humberlea, Emery Coffee lack: 0.0</div>`)[0];
+            popup_067016d60c0a42bf805955d4b1536c46.setContent(html_f2472028e6284d3380631d174440617a);
+        
+
+        circle_marker_2c83a82b286e42bda97927aa34e91765.bindPopup(popup_067016d60c0a42bf805955d4b1536c46)
+        ;
+
+        
+    
+    
+            var circle_marker_30aded32429046db970716024ec1597f = L.circleMarker(
+                [43.692657000000004, -79.2648481],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_175cfd303de54b99a498c8ef99271311 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ab81dc54f54424c8c5a4276f3f87bc6 = $(`<div id="html_1ab81dc54f54424c8c5a4276f3f87bc6" style="width: 100.0%; height: 100.0%;">Birch Cliff, Cliffside West Coffee lack: 0.0</div>`)[0];
+            popup_175cfd303de54b99a498c8ef99271311.setContent(html_1ab81dc54f54424c8c5a4276f3f87bc6);
+        
+
+        circle_marker_30aded32429046db970716024ec1597f.bindPopup(popup_175cfd303de54b99a498c8ef99271311)
+        ;
+
+        
+    
+    
+            var circle_marker_872447bc65e54ba385df11d4b84f79a4 = L.circleMarker(
+                [43.7701199, -79.40849279999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.447920640157459, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_fd41a74702f248398594323f4015a99c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c022df561fd4c509639953a7cf46e11 = $(`<div id="html_0c022df561fd4c509639953a7cf46e11" style="width: 100.0%; height: 100.0%;">Willowdale, Willowdale East Coffee lack: 0.2</div>`)[0];
+            popup_fd41a74702f248398594323f4015a99c.setContent(html_0c022df561fd4c509639953a7cf46e11);
+        
+
+        circle_marker_872447bc65e54ba385df11d4b84f79a4.bindPopup(popup_fd41a74702f248398594323f4015a99c)
+        ;
+
+        
+    
+    
+            var circle_marker_fe91a6d4c4014aceb6e31321bd39e986 = L.circleMarker(
+                [43.7616313, -79.52099940000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.501554415537523, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_497756331f2f47babe1253f2fcbf09cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecb1fddb95ea4dff9cdca9ff315d4993 = $(`<div id="html_ecb1fddb95ea4dff9cdca9ff315d4993" style="width: 100.0%; height: 100.0%;">Downsview Coffee lack: 0.4</div>`)[0];
+            popup_497756331f2f47babe1253f2fcbf09cf.setContent(html_ecb1fddb95ea4dff9cdca9ff315d4993);
+        
+
+        circle_marker_fe91a6d4c4014aceb6e31321bd39e986.bindPopup(popup_497756331f2f47babe1253f2fcbf09cf)
+        ;
+
+        
+    
+    
+            var circle_marker_ac5a299e6bc54445a2170aae26e9c9c0 = L.circleMarker(
+                [43.7280205, -79.3887901],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.247639295554873, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_9af6e9352e2b45cb9a1984b90e47fe2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_619ed286675c4bdbaa5dd4e0a5843ee3 = $(`<div id="html_619ed286675c4bdbaa5dd4e0a5843ee3" style="width: 100.0%; height: 100.0%;">Lawrence Park Coffee lack: 0.4</div>`)[0];
+            popup_9af6e9352e2b45cb9a1984b90e47fe2e.setContent(html_619ed286675c4bdbaa5dd4e0a5843ee3);
+        
+
+        circle_marker_ac5a299e6bc54445a2170aae26e9c9c0.bindPopup(popup_9af6e9352e2b45cb9a1984b90e47fe2e)
+        ;
+
+        
+    
+    
+            var circle_marker_645041ca7ee84633ad2f6e13847df0f4 = L.circleMarker(
+                [43.7116948, -79.41693559999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_c91e53741cff4d2dbc88691c8815f384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31986174e1d349449859ec54294cb8a9 = $(`<div id="html_31986174e1d349449859ec54294cb8a9" style="width: 100.0%; height: 100.0%;">Roselawn Coffee lack: 0.0</div>`)[0];
+            popup_c91e53741cff4d2dbc88691c8815f384.setContent(html_31986174e1d349449859ec54294cb8a9);
+        
+
+        circle_marker_645041ca7ee84633ad2f6e13847df0f4.bindPopup(popup_c91e53741cff4d2dbc88691c8815f384)
+        ;
+
+        
+    
+    
+            var circle_marker_f9af0156fbcf4357970753fafe2ac057 = L.circleMarker(
+                [43.67318529999999, -79.48726190000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.961783613618504, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_8c1d69e676d7425194bbe322ae55d6d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdf23ebd58624a0f9ffe804bf349c737 = $(`<div id="html_bdf23ebd58624a0f9ffe804bf349c737" style="width: 100.0%; height: 100.0%;">Runnymede, The Junction North Coffee lack: 0.3</div>`)[0];
+            popup_8c1d69e676d7425194bbe322ae55d6d2.setContent(html_bdf23ebd58624a0f9ffe804bf349c737);
+        
+
+        circle_marker_f9af0156fbcf4357970753fafe2ac057.bindPopup(popup_8c1d69e676d7425194bbe322ae55d6d2)
+        ;
+
+        
+    
+    
+            var circle_marker_28f2ce934f81475e9593b1a36c256eeb = L.circleMarker(
+                [43.706876, -79.51818840000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.954205118465197, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_1c96e340ee3d4e68ad81fcde8132dcd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_165a61a33b314e8c8be7550725a6cd29 = $(`<div id="html_165a61a33b314e8c8be7550725a6cd29" style="width: 100.0%; height: 100.0%;">Weston Coffee lack: 0.2</div>`)[0];
+            popup_1c96e340ee3d4e68ad81fcde8132dcd5.setContent(html_165a61a33b314e8c8be7550725a6cd29);
+        
+
+        circle_marker_28f2ce934f81475e9593b1a36c256eeb.bindPopup(popup_1c96e340ee3d4e68ad81fcde8132dcd5)
+        ;
+
+        
+    
+    
+            var circle_marker_e7c92d91285d4bbb8242655a081f8896 = L.circleMarker(
+                [43.7574096, -79.27330400000001],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.658326940043553, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ab9b942b23ee4b85a33eda818ff1b0f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_179492efe7964890934f9d2ed3a771a3 = $(`<div id="html_179492efe7964890934f9d2ed3a771a3" style="width: 100.0%; height: 100.0%;">Dorset Park, Wexford Heights, Scarborough Town Centre Coffee lack: 0.6</div>`)[0];
+            popup_ab9b942b23ee4b85a33eda818ff1b0f2.setContent(html_179492efe7964890934f9d2ed3a771a3);
+        
+
+        circle_marker_e7c92d91285d4bbb8242655a081f8896.bindPopup(popup_ab9b942b23ee4b85a33eda818ff1b0f2)
+        ;
+
+        
+    
+    
+            var circle_marker_3cbca1e9a650446c91c7e6a65fe5c1eb = L.circleMarker(
+                [43.752758299999996, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_5d8aa20601ee40249bad70a5b3b93b8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf692fdb58414476be051b8c167f2247 = $(`<div id="html_cf692fdb58414476be051b8c167f2247" style="width: 100.0%; height: 100.0%;">York Mills West Coffee lack: 0.0</div>`)[0];
+            popup_5d8aa20601ee40249bad70a5b3b93b8c.setContent(html_cf692fdb58414476be051b8c167f2247);
+        
+
+        circle_marker_3cbca1e9a650446c91c7e6a65fe5c1eb.bindPopup(popup_5d8aa20601ee40249bad70a5b3b93b8c)
+        ;
+
+        
+    
+    
+            var circle_marker_f76469111c1c4095a428cd7bb02878e0 = L.circleMarker(
+                [43.7127511, -79.3901975],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.870667184150946, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a5f8ee484bab4d60a947ec4a15779d33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a32846188b804d0b906eeca3c9cc2c08 = $(`<div id="html_a32846188b804d0b906eeca3c9cc2c08" style="width: 100.0%; height: 100.0%;">Davisville North Coffee lack: 1.4</div>`)[0];
+            popup_a5f8ee484bab4d60a947ec4a15779d33.setContent(html_a32846188b804d0b906eeca3c9cc2c08);
+        
+
+        circle_marker_f76469111c1c4095a428cd7bb02878e0.bindPopup(popup_a5f8ee484bab4d60a947ec4a15779d33)
+        ;
+
+        
+    
+    
+            var circle_marker_d46b56cdc0894981ac1c02d1892a6a59 = L.circleMarker(
+                [43.6969476, -79.41130720000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.833023407671332, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a2ea6002d8474d7b865e7f7bd5556bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72b7e5412134457a9d34f7f2a84f3127 = $(`<div id="html_72b7e5412134457a9d34f7f2a84f3127" style="width: 100.0%; height: 100.0%;">Forest Hill North &amp; West, Forest Hill Road Park Coffee lack: 0.4</div>`)[0];
+            popup_a2ea6002d8474d7b865e7f7bd5556bc2.setContent(html_72b7e5412134457a9d34f7f2a84f3127);
+        
+
+        circle_marker_d46b56cdc0894981ac1c02d1892a6a59.bindPopup(popup_a2ea6002d8474d7b865e7f7bd5556bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_8a100ebb57394d6dbf2bdb5bad412f83 = L.circleMarker(
+                [43.6616083, -79.46476329999999],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.150464296005044, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_4813fe1947764843a96694596fab5233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3957d0bdca3458ca5243a5b64eb64a7 = $(`<div id="html_a3957d0bdca3458ca5243a5b64eb64a7" style="width: 100.0%; height: 100.0%;">High Park, The Junction South Coffee lack: 0.9</div>`)[0];
+            popup_4813fe1947764843a96694596fab5233.setContent(html_a3957d0bdca3458ca5243a5b64eb64a7);
+        
+
+        circle_marker_8a100ebb57394d6dbf2bdb5bad412f83.bindPopup(popup_4813fe1947764843a96694596fab5233)
+        ;
+
+        
+    
+    
+            var circle_marker_6ebd61aaf5454f128d994c20041d4e9b = L.circleMarker(
+                [43.696319, -79.53224240000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_2fad4e32b67843b9a7002366fd124315 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a49b082f0b604a68a260c62573989f0d = $(`<div id="html_a49b082f0b604a68a260c62573989f0d" style="width: 100.0%; height: 100.0%;">Westmount Coffee lack: 0.0</div>`)[0];
+            popup_2fad4e32b67843b9a7002366fd124315.setContent(html_a49b082f0b604a68a260c62573989f0d);
+        
+
+        circle_marker_6ebd61aaf5454f128d994c20041d4e9b.bindPopup(popup_2fad4e32b67843b9a7002366fd124315)
+        ;
+
+        
+    
+    
+            var circle_marker_97e3afe0b2d448ada05bbcfa3f706811 = L.circleMarker(
+                [43.750071500000004, -79.2958491],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.239977445186376, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_1c808a06153d47caa7a15b3e47d52ae0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50981350f35444378b33d60fa8ce2998 = $(`<div id="html_50981350f35444378b33d60fa8ce2998" style="width: 100.0%; height: 100.0%;">Wexford, Maryvale Coffee lack: 0.6</div>`)[0];
+            popup_1c808a06153d47caa7a15b3e47d52ae0.setContent(html_50981350f35444378b33d60fa8ce2998);
+        
+
+        circle_marker_97e3afe0b2d448ada05bbcfa3f706811.bindPopup(popup_1c808a06153d47caa7a15b3e47d52ae0)
+        ;
+
+        
+    
+    
+            var circle_marker_fc6f87929d45445a890b63e4587bb731 = L.circleMarker(
+                [43.7827364, -79.4422593],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_61c0bf650634461facb00752e278a82b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a13ed5bc8d3d447c9f576d517ade8f80 = $(`<div id="html_a13ed5bc8d3d447c9f576d517ade8f80" style="width: 100.0%; height: 100.0%;">Willowdale, Willowdale West Coffee lack: 0.0</div>`)[0];
+            popup_61c0bf650634461facb00752e278a82b.setContent(html_a13ed5bc8d3d447c9f576d517ade8f80);
+        
+
+        circle_marker_fc6f87929d45445a890b63e4587bb731.bindPopup(popup_61c0bf650634461facb00752e278a82b)
+        ;
+
+        
+    
+    
+            var circle_marker_505b5c0464ac4b65b2ec810b4cb9614b = L.circleMarker(
+                [43.7153834, -79.40567840000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_804a5aeee87e4e3f9e3817a9cc485bec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_447cf5c58e654b03a773f4794bc319b1 = $(`<div id="html_447cf5c58e654b03a773f4794bc319b1" style="width: 100.0%; height: 100.0%;">North Toronto West, Lawrence Park Coffee lack: 0.0</div>`)[0];
+            popup_804a5aeee87e4e3f9e3817a9cc485bec.setContent(html_447cf5c58e654b03a773f4794bc319b1);
+        
+
+        circle_marker_505b5c0464ac4b65b2ec810b4cb9614b.bindPopup(popup_804a5aeee87e4e3f9e3817a9cc485bec)
+        ;
+
+        
+    
+    
+            var circle_marker_175d165449e346c8ac0751a9f527c3a6 = L.circleMarker(
+                [43.6727097, -79.40567840000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_e64a52df3e774a14a2b1d242825ba604 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2f067bef47148f4aff1159e5d2b5825 = $(`<div id="html_f2f067bef47148f4aff1159e5d2b5825" style="width: 100.0%; height: 100.0%;">The Annex, North Midtown, Yorkville Coffee lack: 0.0</div>`)[0];
+            popup_e64a52df3e774a14a2b1d242825ba604.setContent(html_f2f067bef47148f4aff1159e5d2b5825);
+        
+
+        circle_marker_175d165449e346c8ac0751a9f527c3a6.bindPopup(popup_e64a52df3e774a14a2b1d242825ba604)
+        ;
+
+        
+    
+    
+            var circle_marker_aca97255e8b3404fa64adbb2c3b53454 = L.circleMarker(
+                [43.6489597, -79.456325],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.05670751629454, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_35101f0956e643e29f475e22e3f930ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c1e7d54339b412fa4cba434003b5224 = $(`<div id="html_9c1e7d54339b412fa4cba434003b5224" style="width: 100.0%; height: 100.0%;">Parkdale, Roncesvalles Coffee lack: 0.8</div>`)[0];
+            popup_35101f0956e643e29f475e22e3f930ed.setContent(html_9c1e7d54339b412fa4cba434003b5224);
+        
+
+        circle_marker_aca97255e8b3404fa64adbb2c3b53454.bindPopup(popup_35101f0956e643e29f475e22e3f930ed)
+        ;
+
+        
+    
+    
+            var circle_marker_a9e352522cec45e0aef5e68cfc89691d = L.circleMarker(
+                [43.6369656, -79.61581899999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_f9ba90ff4d2a4ad7bdcaade3b46d79e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f80482ad0f1f490d81b7050f17254be5 = $(`<div id="html_f80482ad0f1f490d81b7050f17254be5" style="width: 100.0%; height: 100.0%;">Canada Post Gateway Processing Centre Coffee lack: 0.0</div>`)[0];
+            popup_f9ba90ff4d2a4ad7bdcaade3b46d79e0.setContent(html_f80482ad0f1f490d81b7050f17254be5);
+        
+
+        circle_marker_a9e352522cec45e0aef5e68cfc89691d.bindPopup(popup_f9ba90ff4d2a4ad7bdcaade3b46d79e0)
+        ;
+
+        
+    
+    
+            var circle_marker_bd41847b204a49308a8691f2e5f3cb31 = L.circleMarker(
+                [43.6889054, -79.55472440000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.528750970230549, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_78b96a5a998c4f83940fc26f0933fca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfd5eb1b702f4517856caa3af45be999 = $(`<div id="html_dfd5eb1b702f4517856caa3af45be999" style="width: 100.0%; height: 100.0%;">Kingsview Village, St. Phillips, Martin Grove Gardens, Richview Gardens Coffee lack: 0.0</div>`)[0];
+            popup_78b96a5a998c4f83940fc26f0933fca4.setContent(html_dfd5eb1b702f4517856caa3af45be999);
+        
+
+        circle_marker_bd41847b204a49308a8691f2e5f3cb31.bindPopup(popup_78b96a5a998c4f83940fc26f0933fca4)
+        ;
+
+        
+    
+    
+            var circle_marker_6062e87e2c7f4c998b96f469f4f69daf = L.circleMarker(
+                [43.7942003, -79.26202940000002],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.380916084087491, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a04d3868cd124356ab5fb3704f4d8c76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67d76c09b1274466a2a53d9fafc6688f = $(`<div id="html_67d76c09b1274466a2a53d9fafc6688f" style="width: 100.0%; height: 100.0%;">Agincourt Coffee lack: 0.2</div>`)[0];
+            popup_a04d3868cd124356ab5fb3704f4d8c76.setContent(html_67d76c09b1274466a2a53d9fafc6688f);
+        
+
+        circle_marker_6062e87e2c7f4c998b96f469f4f69daf.bindPopup(popup_a04d3868cd124356ab5fb3704f4d8c76)
+        ;
+
+        
+    
+    
+            var circle_marker_ec418cce420c4d3ca6b308d12d2def90 = L.circleMarker(
+                [43.7043244, -79.3887901],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.916937360944608, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_2df2f407689d4e49a58751f38a9e7692 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_868eaeb20a0249848da44d5d94763031 = $(`<div id="html_868eaeb20a0249848da44d5d94763031" style="width: 100.0%; height: 100.0%;">Davisville Coffee lack: 0.8</div>`)[0];
+            popup_2df2f407689d4e49a58751f38a9e7692.setContent(html_868eaeb20a0249848da44d5d94763031);
+        
+
+        circle_marker_ec418cce420c4d3ca6b308d12d2def90.bindPopup(popup_2df2f407689d4e49a58751f38a9e7692)
+        ;
+
+        
+    
+    
+            var circle_marker_a288eee622b941948144f7fcb5b31af9 = L.circleMarker(
+                [43.6626956, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_403b3f1763924ae386fa522f6cf52af5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_211c2ba220c046a1b0186f6f2da01a22 = $(`<div id="html_211c2ba220c046a1b0186f6f2da01a22" style="width: 100.0%; height: 100.0%;">University of Toronto, Harbord Coffee lack: 0.0</div>`)[0];
+            popup_403b3f1763924ae386fa522f6cf52af5.setContent(html_211c2ba220c046a1b0186f6f2da01a22);
+        
+
+        circle_marker_a288eee622b941948144f7fcb5b31af9.bindPopup(popup_403b3f1763924ae386fa522f6cf52af5)
+        ;
+
+        
+    
+    
+            var circle_marker_f3ca710957984ed79f2226aa77b427d3 = L.circleMarker(
+                [43.6515706, -79.4844499],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_176d3124cdab43b7b1d56cfb44abb5d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a80a3b53d0e940cca2e58f325045b583 = $(`<div id="html_a80a3b53d0e940cca2e58f325045b583" style="width: 100.0%; height: 100.0%;">Runnymede, Swansea Coffee lack: 0.0</div>`)[0];
+            popup_176d3124cdab43b7b1d56cfb44abb5d3.setContent(html_a80a3b53d0e940cca2e58f325045b583);
+        
+
+        circle_marker_f3ca710957984ed79f2226aa77b427d3.bindPopup(popup_176d3124cdab43b7b1d56cfb44abb5d3)
+        ;
+
+        
+    
+    
+            var circle_marker_b56892bd0a7d4620afc637471ca918f0 = L.circleMarker(
+                [43.7816375, -79.3043021],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.345131932771693, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_11006d38993f4addbbb586ca38b635de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d84d3bf89424f949b184c12c58344ec = $(`<div id="html_1d84d3bf89424f949b184c12c58344ec" style="width: 100.0%; height: 100.0%;">Clarks Corners, Tam O&#39;Shanter, Sullivan Coffee lack: 1.7</div>`)[0];
+            popup_11006d38993f4addbbb586ca38b635de.setContent(html_1d84d3bf89424f949b184c12c58344ec);
+        
+
+        circle_marker_b56892bd0a7d4620afc637471ca918f0.bindPopup(popup_11006d38993f4addbbb586ca38b635de)
+        ;
+
+        
+    
+    
+            var circle_marker_b295b4d06fc144d1a12ceb5cc399ad0a = L.circleMarker(
+                [43.6895743, -79.38315990000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_fea71f2ab08a4c6ebbfdd60f1c8b5d40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f05846d549c4a26ac3cca6e9781fbe5 = $(`<div id="html_0f05846d549c4a26ac3cca6e9781fbe5" style="width: 100.0%; height: 100.0%;">Moore Park, Summerhill East Coffee lack: 0.0</div>`)[0];
+            popup_fea71f2ab08a4c6ebbfdd60f1c8b5d40.setContent(html_0f05846d549c4a26ac3cca6e9781fbe5);
+        
+
+        circle_marker_b295b4d06fc144d1a12ceb5cc399ad0a.bindPopup(popup_fea71f2ab08a4c6ebbfdd60f1c8b5d40)
+        ;
+
+        
+    
+    
+            var circle_marker_4b45e6d8f2594219b09168040ad59634 = L.circleMarker(
+                [43.6532057, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_716fa695eecc42b2b865ea2c0896a932 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faa2a094881048719eb038a17ef4dd3c = $(`<div id="html_faa2a094881048719eb038a17ef4dd3c" style="width: 100.0%; height: 100.0%;">Kensington Market, Chinatown, Grange Park Coffee lack: 0.0</div>`)[0];
+            popup_716fa695eecc42b2b865ea2c0896a932.setContent(html_faa2a094881048719eb038a17ef4dd3c);
+        
+
+        circle_marker_4b45e6d8f2594219b09168040ad59634.bindPopup(popup_716fa695eecc42b2b865ea2c0896a932)
+        ;
+
+        
+    
+    
+            var circle_marker_4ec6dda890574fe1bc09c51dc733cb22 = L.circleMarker(
+                [43.8152522, -79.2845772],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_ef9a722b55ff4d969616e6a8475dbb68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6936087549643698ca98e81097cabf1 = $(`<div id="html_b6936087549643698ca98e81097cabf1" style="width: 100.0%; height: 100.0%;">Milliken, Agincourt North, Steeles East, L&#39;Amoreaux East Coffee lack: 0.0</div>`)[0];
+            popup_ef9a722b55ff4d969616e6a8475dbb68.setContent(html_b6936087549643698ca98e81097cabf1);
+        
+
+        circle_marker_4ec6dda890574fe1bc09c51dc733cb22.bindPopup(popup_ef9a722b55ff4d969616e6a8475dbb68)
+        ;
+
+        
+    
+    
+            var circle_marker_7ac3e39f0e4c404593f658bca41b6d87 = L.circleMarker(
+                [43.68641229999999, -79.4000493],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_8a508c3d25994a5fb26d9563c121945a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c256ae0d625e4fca8c8809409bd6da2d = $(`<div id="html_c256ae0d625e4fca8c8809409bd6da2d" style="width: 100.0%; height: 100.0%;">Summerhill West, Rathnelly, South Hill, Forest Hill SE, Deer Park Coffee lack: 0.0</div>`)[0];
+            popup_8a508c3d25994a5fb26d9563c121945a.setContent(html_c256ae0d625e4fca8c8809409bd6da2d);
+        
+
+        circle_marker_7ac3e39f0e4c404593f658bca41b6d87.bindPopup(popup_8a508c3d25994a5fb26d9563c121945a)
+        ;
+
+        
+    
+    
+            var circle_marker_5d76d302dd024ef0b6eb2247a5b9908b = L.circleMarker(
+                [43.6289467, -79.3944199],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.94299038192475, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_fbd4d93415a140cea4c717943dd46d1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe5b35f7090d4372816090b3be0a9663 = $(`<div id="html_fe5b35f7090d4372816090b3be0a9663" style="width: 100.0%; height: 100.0%;">CN Tower, King and Spadina, Railway Lands, Harbourfront West, Bathurst Quay, South Niagara, Island airport Coffee lack: 2.1</div>`)[0];
+            popup_fbd4d93415a140cea4c717943dd46d1d.setContent(html_fe5b35f7090d4372816090b3be0a9663);
+        
+
+        circle_marker_5d76d302dd024ef0b6eb2247a5b9908b.bindPopup(popup_fbd4d93415a140cea4c717943dd46d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_71908b13d9c24c9aa2bf8f25dd4d40be = L.circleMarker(
+                [43.6056466, -79.50132070000001],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.2035952292702135, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_5f956a061c1c4a59878bc9c00ea2ab49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93643776b6f847ff854888a2b612dd19 = $(`<div id="html_93643776b6f847ff854888a2b612dd19" style="width: 100.0%; height: 100.0%;">New Toronto, Mimico South, Humber Bay Shores Coffee lack: 0.1</div>`)[0];
+            popup_5f956a061c1c4a59878bc9c00ea2ab49.setContent(html_93643776b6f847ff854888a2b612dd19);
+        
+
+        circle_marker_71908b13d9c24c9aa2bf8f25dd4d40be.bindPopup(popup_5f956a061c1c4a59878bc9c00ea2ab49)
+        ;
+
+        
+    
+    
+            var circle_marker_f0bfb984344a48b98bf265e6f5c45f08 = L.circleMarker(
+                [43.739416399999996, -79.5884369],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.668454434601927, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a2bf07f7371346caa676a71e1967d214 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf73d5127ab404b8cd76a2d4b9adb40 = $(`<div id="html_5cf73d5127ab404b8cd76a2d4b9adb40" style="width: 100.0%; height: 100.0%;">South Steeles, Silverstone, Humbergate, Jamestown, Mount Olive, Beaumond Heights, Thistletown, Albion Gardens Coffee lack: 0.6</div>`)[0];
+            popup_a2bf07f7371346caa676a71e1967d214.setContent(html_5cf73d5127ab404b8cd76a2d4b9adb40);
+        
+
+        circle_marker_f0bfb984344a48b98bf265e6f5c45f08.bindPopup(popup_a2bf07f7371346caa676a71e1967d214)
+        ;
+
+        
+    
+    
+            var circle_marker_78c0a2caf27a491c936d181903cc630c = L.circleMarker(
+                [43.799525200000005, -79.3183887],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.065856034819406, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_e46b478d241f4c6092a2b4312b52569d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b04f5a972b28497d898dfe9fae709a81 = $(`<div id="html_b04f5a972b28497d898dfe9fae709a81" style="width: 100.0%; height: 100.0%;">Steeles West, L&#39;Amoreaux West Coffee lack: 0.2</div>`)[0];
+            popup_e46b478d241f4c6092a2b4312b52569d.setContent(html_b04f5a972b28497d898dfe9fae709a81);
+        
+
+        circle_marker_78c0a2caf27a491c936d181903cc630c.bindPopup(popup_e46b478d241f4c6092a2b4312b52569d)
+        ;
+
+        
+    
+    
+            var circle_marker_6168dcf530d34e95abe133b9b2140955 = L.circleMarker(
+                [43.6795626, -79.37752940000001],
+                {"bubblingMouseEvents": true, "color": "#0a9d87", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0a9d87", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.038730740727607, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_1a1122853ea741ecac213d8ba6ff7b83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_427d90f709f9493ba9df6caac7827fdf = $(`<div id="html_427d90f709f9493ba9df6caac7827fdf" style="width: 100.0%; height: 100.0%;">Rosedale Coffee lack: 0.5</div>`)[0];
+            popup_1a1122853ea741ecac213d8ba6ff7b83.setContent(html_427d90f709f9493ba9df6caac7827fdf);
+        
+
+        circle_marker_6168dcf530d34e95abe133b9b2140955.bindPopup(popup_1a1122853ea741ecac213d8ba6ff7b83)
+        ;
+
+        
+    
+    
+            var circle_marker_8be67c0302e84d1faaede472c236083e = L.circleMarker(
+                [43.6464352, -79.37484599999999],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.601372257089285, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_e4babb91de0648f6824b271f0310d5dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec9a7280e7a543a5a77c78ea555a09a8 = $(`<div id="html_ec9a7280e7a543a5a77c78ea555a09a8" style="width: 100.0%; height: 100.0%;">Stn A PO Boxes Coffee lack: 1.7</div>`)[0];
+            popup_e4babb91de0648f6824b271f0310d5dd.setContent(html_ec9a7280e7a543a5a77c78ea555a09a8);
+        
+
+        circle_marker_8be67c0302e84d1faaede472c236083e.bindPopup(popup_e4babb91de0648f6824b271f0310d5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_089067c525be49d9a3cef1c4c1e9c93e = L.circleMarker(
+                [43.60241370000001, -79.54348409999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_1ec01ef972b94d198222c74ea5b38af8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_589ddaeb924d49afbcf2829c4542a521 = $(`<div id="html_589ddaeb924d49afbcf2829c4542a521" style="width: 100.0%; height: 100.0%;">Alderwood, Long Branch Coffee lack: 0.0</div>`)[0];
+            popup_1ec01ef972b94d198222c74ea5b38af8.setContent(html_589ddaeb924d49afbcf2829c4542a521);
+        
+
+        circle_marker_089067c525be49d9a3cef1c4c1e9c93e.bindPopup(popup_1ec01ef972b94d198222c74ea5b38af8)
+        ;
+
+        
+    
+    
+            var circle_marker_ed482945733c46d7b5babb7c03e0f923 = L.circleMarker(
+                [43.706748299999994, -79.5940544],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.210036589639115, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_40fdad3cb56440029b8ee1e8a52e24ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81db1011e3ca431bab6d9e82c331e99c = $(`<div id="html_81db1011e3ca431bab6d9e82c331e99c" style="width: 100.0%; height: 100.0%;">Northwest, West Humber - Clairville Coffee lack: 0.3</div>`)[0];
+            popup_40fdad3cb56440029b8ee1e8a52e24ba.setContent(html_81db1011e3ca431bab6d9e82c331e99c);
+        
+
+        circle_marker_ed482945733c46d7b5babb7c03e0f923.bindPopup(popup_40fdad3cb56440029b8ee1e8a52e24ba)
+        ;
+
+        
+    
+    
+            var circle_marker_b4bcfec363d44ff09bea5c7ddd678880 = L.circleMarker(
+                [43.836124700000006, -79.20563609999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_b3ca6c6ec5994a32a24de8010d5ed12c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_895e20976e2840c6bcec58c8d9748010 = $(`<div id="html_895e20976e2840c6bcec58c8d9748010" style="width: 100.0%; height: 100.0%;">Upper Rouge Coffee lack: 0.0</div>`)[0];
+            popup_b3ca6c6ec5994a32a24de8010d5ed12c.setContent(html_895e20976e2840c6bcec58c8d9748010);
+        
+
+        circle_marker_b4bcfec363d44ff09bea5c7ddd678880.bindPopup(popup_b3ca6c6ec5994a32a24de8010d5ed12c)
+        ;
+
+        
+    
+    
+            var circle_marker_51a3ac29a69048fa9fee33c7aa3b35c5 = L.circleMarker(
+                [43.667967, -79.3676753],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.156125972230306, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_a3b158b0609f41d6a084b9af0bd09c34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5778f15b3c9c496492ea1a2b090d5247 = $(`<div id="html_5778f15b3c9c496492ea1a2b090d5247" style="width: 100.0%; height: 100.0%;">St. James Town, Cabbagetown Coffee lack: 0.3</div>`)[0];
+            popup_a3b158b0609f41d6a084b9af0bd09c34.setContent(html_5778f15b3c9c496492ea1a2b090d5247);
+        
+
+        circle_marker_51a3ac29a69048fa9fee33c7aa3b35c5.bindPopup(popup_a3b158b0609f41d6a084b9af0bd09c34)
+        ;
+
+        
+    
+    
+            var circle_marker_08dd070be2d04706b2a09b2370559b0d = L.circleMarker(
+                [43.6484292, -79.3822802],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_c754dfb778f24163a8c97a208c7011ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83ac36a7b8a140748af606279dd42cb7 = $(`<div id="html_83ac36a7b8a140748af606279dd42cb7" style="width: 100.0%; height: 100.0%;">First Canadian Place, Underground city Coffee lack: 0.0</div>`)[0];
+            popup_c754dfb778f24163a8c97a208c7011ee.setContent(html_83ac36a7b8a140748af606279dd42cb7);
+        
+
+        circle_marker_08dd070be2d04706b2a09b2370559b0d.bindPopup(popup_c754dfb778f24163a8c97a208c7011ee)
+        ;
+
+        
+    
+    
+            var circle_marker_1ffdc07ddccb47ffbe981ac3e0ce94be = L.circleMarker(
+                [43.653653600000005, -79.5069436],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.977511611683816, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_80940d893d974bc6bb1b03a8e3a67d36 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_132f92a2340f4c12b52d26f43f2f5ef1 = $(`<div id="html_132f92a2340f4c12b52d26f43f2f5ef1" style="width: 100.0%; height: 100.0%;">The Kingsway, Montgomery Road, Old Mill North Coffee lack: 0.2</div>`)[0];
+            popup_80940d893d974bc6bb1b03a8e3a67d36.setContent(html_132f92a2340f4c12b52d26f43f2f5ef1);
+        
+
+        circle_marker_1ffdc07ddccb47ffbe981ac3e0ce94be.bindPopup(popup_80940d893d974bc6bb1b03a8e3a67d36)
+        ;
+
+        
+    
+    
+            var circle_marker_1367c8164078415899fd83c6f3daad5e = L.circleMarker(
+                [43.6658599, -79.38315990000001],
+                {"bubblingMouseEvents": true, "color": "#01ceaf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#01ceaf", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 57.63146943026902, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_743ed0c22f054a1b9d19f6870326efc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0efe74462a9435090e02f4bb8adcc94 = $(`<div id="html_c0efe74462a9435090e02f4bb8adcc94" style="width: 100.0%; height: 100.0%;">Church and Wellesley Coffee lack: 4.5</div>`)[0];
+            popup_743ed0c22f054a1b9d19f6870326efc4.setContent(html_c0efe74462a9435090e02f4bb8adcc94);
+        
+
+        circle_marker_1367c8164078415899fd83c6f3daad5e.bindPopup(popup_743ed0c22f054a1b9d19f6870326efc4)
+        ;
+
+        
+    
+    
+            var circle_marker_a659f3384b564ed9937c76f9377c5db2 = L.circleMarker(
+                [43.6627439, -79.321558],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 25.59486638571674, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_9eb18d6bd0544ee6b2d2daefba261a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d127a40f3d4e8b93af60e98f14b7c9 = $(`<div id="html_38d127a40f3d4e8b93af60e98f14b7c9" style="width: 100.0%; height: 100.0%;">Business reply mail Processing Centre, South Central Letter Processing Plant Toronto Coffee lack: 1.8</div>`)[0];
+            popup_9eb18d6bd0544ee6b2d2daefba261a44.setContent(html_38d127a40f3d4e8b93af60e98f14b7c9);
+        
+
+        circle_marker_a659f3384b564ed9937c76f9377c5db2.bindPopup(popup_9eb18d6bd0544ee6b2d2daefba261a44)
+        ;
+
+        
+    
+    
+            var circle_marker_59b31f19908046b78b2fdab2a158cfff = L.circleMarker(
+                [43.6362579, -79.49850909999999],
+                {"bubblingMouseEvents": true, "color": "#0d917d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0d917d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_aeebb97804db407fbbd392d509bdbe87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e334ffd0c5194db5857036c72e2f7e9a = $(`<div id="html_e334ffd0c5194db5857036c72e2f7e9a" style="width: 100.0%; height: 100.0%;">Old Mill South, King&#39;s Mill Park, Sunnylea, Humber Bay, Mimico NE, The Queensway East, Royal York South East, Kingsway Park South East Coffee lack: 0.0</div>`)[0];
+            popup_aeebb97804db407fbbd392d509bdbe87.setContent(html_e334ffd0c5194db5857036c72e2f7e9a);
+        
+
+        circle_marker_59b31f19908046b78b2fdab2a158cfff.bindPopup(popup_aeebb97804db407fbbd392d509bdbe87)
+        ;
+
+        
+    
+    
+            var circle_marker_7174310c5e78487cbc09011252821110 = L.circleMarker(
+                [43.6288408, -79.52099940000001],
+                {"bubblingMouseEvents": true, "color": "#08aa91", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#08aa91", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.970197663950593, "stroke": true, "weight": 0}
+            ).addTo(map_bfdaa5b7416145e7b2f7a7c537fe22ca);
+        
+    
+        var popup_3282d26937ba4034a57ca3c376cb1f16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6400d9921ad94716b0ecfe3515bf7f9e = $(`<div id="html_6400d9921ad94716b0ecfe3515bf7f9e" style="width: 100.0%; height: 100.0%;">Mimico NW, The Queensway West, South of Bloor, Kingsway Park South West, Royal York South West Coffee lack: 1.6</div>`)[0];
+            popup_3282d26937ba4034a57ca3c376cb1f16.setContent(html_6400d9921ad94716b0ecfe3515bf7f9e);
+        
+
+        circle_marker_7174310c5e78487cbc09011252821110.bindPopup(popup_3282d26937ba4034a57ca3c376cb1f16)
+        ;
+
+        
+    
+</script>
